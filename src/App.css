@@ -1,20 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Oxanium|Trade+Winds&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style-type: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Oxanium", cursive;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Oxanium", cursive;
+}
+
+body {
+    background: repeating-linear-gradient( to right, rgba(200,200,250,0.3), rgba(200,200,250,0.3) 5px, rgba(200,200,250,0.6) 5px, rgba(200,200,250,0.6) 10px);
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-template-areas: "header header" "aside  main" "footer footer";
-  grid-gap: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: "header header" "aside  main" "footer footer";
+    grid-gap: 20px;
+
 }

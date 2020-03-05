@@ -2,4 +2,18 @@
   grid-area: aside;
   background-color: #13A466;
   padding: 10px;
+  position: relative; 
+  overflow: hidden;
+}
+
+.aside__background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.aside .menu {
+	position: relative;
+	z-index: 10;
 }
