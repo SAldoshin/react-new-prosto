@@ -1,0 +1,10 @@
+.footer {
+  grid-area: footer;
+  padding: 30px 0;
+  text-align: center;
+  background-color: #303133;
+}
+
+.copyright {
+  color: #ffffff;
+}

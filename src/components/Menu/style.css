@@ -1,0 +1,34 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu .menu__item {
+  padding-right: 10px;
+}
+.menu .menu__link {
+  display: block;
+  padding: 10px 12px 8px;
+  color: #8703DA;
+  font-size: 18px;
+}
+.menu .menu__link:hover {
+  color: #F0CD1C;
+  background-color: #303133;
+}
+
+.menu_position_right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu_vertical_layout {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.menu_vertical_layout .menu__link {
+  color: #ffffff;
+}

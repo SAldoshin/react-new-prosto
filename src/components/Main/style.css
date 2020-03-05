@@ -1,0 +1,85 @@
+.content {
+  grid-area: main;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.slider {
+  max-height: 300px;
+  overflow: hidden;
+  background-color: #6C1BA0;
+}
+.slider__image {
+  width: 100%;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-column-gap: 30px;
+}
+.user__wrap-image {
+  width: 200px;
+  background-color: #F0CD1C;
+}
+
+.user__image {
+  width: 100%;
+}
+
+.user__header {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Trade Winds", cursive;
+}
+
+.user__text {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+.form .form__header {
+  font-size: 30px;
+  font-family: "Trade Winds", cursive;
+}
+
+.new-post {
+  text-align: right;
+}
+.new-post__text {
+  width: 100%;
+  min-height: 100px;
+  background-color: #C0C4CC;
+  font-size: 22px;
+  margin: 10px 0;
+}
+.new-post__button {
+  background-color: #13A466;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-color: transparent;
+  border-radius: 2px;
+}
+.new-post__button:hover {
+  background-color: #00E985;
+  color: #303133;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+.post__wrap-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.post__image {
+  width: 100%;
+}

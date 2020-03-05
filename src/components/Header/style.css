@@ -1,0 +1,39 @@
+.header {
+  grid-area: header;
+  position: relative;
+  min-height: 370px;
+  background-color: #13A466;
+}
+
+.header__top {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  z-index: 2;
+}
+
+.logotype {
+  padding: 20px 0;
+  text-align: center;
+}
+.logotype .logotype__link:hover {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+.logotype .logotype__image {
+  width: 60px;
+}
+
+.header__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
