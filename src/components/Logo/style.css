@@ -1,0 +1,13 @@
+.logotype {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logotype__link:hover {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.logotype__image {
+  width: 60px;
+}

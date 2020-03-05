@@ -1,0 +1,8 @@
+.slider {
+  max-height: 300px;
+  overflow: hidden;
+  background-color: #6C1BA0;
+}
+.slider__image {
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.form__header {
+  font-size: 30px;
+  font-family: "Trade Winds", cursive;
+}
+
+.new-post {
+  text-align: right;
+}
+.new-post__text {
+  width: 100%;
+  min-height: 100px;
+  background-color: #C0C4CC;
+  font-size: 22px;
+  margin: 10px 0;
+}
+.new-post__button {
+  background-color: #13A466;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-color: transparent;
+  border-radius: 2px;
+}
+.new-post__button:hover {
+  background-color: #00E985;
+  color: #303133;
+}
