@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 
-const Header = () => {
+const User = () => {
 	return (
 		<div className="user">
 			<div className="user__wrap-image">
@@ -18,4 +18,4 @@ const Header = () => {
 	)
 }
 
-export default Header;
+export default User;

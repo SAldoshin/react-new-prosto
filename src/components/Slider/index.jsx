@@ -1,10 +1,15 @@
-import React from './react';
+import React from 'react';
 import './style.css';
 
-const Slider = () => {
+const Slider = (props) => {
+
+	let elem = props.slider.map((slide) => {
+		return <img src={slide.image} alt={slide.alt} className="slider__image" />
+	});
+
 	return (
 		<div className="slider">
-			<img src="/images/slider.jpg" alt="slider" className="slider__image" />
+			{elem}
 		</div>
 	)
 }

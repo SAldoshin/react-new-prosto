@@ -1,23 +1,19 @@
-import React from './react';
+import React from 'react';
 import './style.css';
 
-const Example = (props) => {
+import Post from './../Post/';
+
+const Posts = (props) => {
+	
+	let elem = props.blogs.map((el) => {
+		return <Post blogs={el} />
+	});
+
 	return (
 		<div className="posts">
-			<div className="post">
-				<div className="post__wrap-image">
-					<img src="/images/avatar.jpg" alt="ava" className="post__image" />
-				</div>
-				<div className="post__text">Hey, why nobody love you?</div>
-			</div>
-			<div className="post">
-				<div className="post__wrap-image">
-					<img src="/images/avatar.jpg" alt="ava" className="post__image" />
-				</div>
-				<div className="post__text">It's our new program</div>
-			</div>
+			{elem}			
 		</div>
 	)
 }
 
-export default Example;
+export default Posts;

@@ -6,13 +6,13 @@ import User from './../User/';
 import Form from './../Form/';
 import Posts from './../Posts/';
 
-const Main = () => {
+const Main = (props) => {
 	return (
 		<main className="content">
-			<Slider />
+			<Slider slider={props.slider} />
 			<User />
 			<Form />
-			<Posts />
+			<Posts blogs={props.blogs} />
 		</main>
 	)
 };

@@ -3,10 +3,10 @@ import "./style.css";
 
 import Menu from './../Menu/';
 
-const Aside = () => {
+const Aside = (props) => {
 	return (
 		<aside className="aside">
-			<Menu cls="menu_vertical_layout" />			
+			<Menu cls="menu_vertical_layout" menu={props.menu} />
 		</aside>
 	)
 }

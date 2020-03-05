@@ -1,7 +1,7 @@
-import React from './react';
+import React from 'react';
 import './style.css';
 
-const Example = (props) => {
+const Form = (props) => {
 	return (
 		<div className="form">
 			<div className="form__header">My posts</div>
@@ -13,4 +13,4 @@ const Example = (props) => {
 	)
 }
 
-export default Example;
+export default Form;

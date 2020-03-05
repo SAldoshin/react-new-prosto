@@ -3,16 +3,20 @@
   display: -ms-flexbox;
   display: flex;
 }
-.menu .menu__item {
+
+.menu__item {
   padding-right: 10px;
 }
-.menu .menu__link {
+
+.menu__link {
   display: block;
   padding: 10px 12px 8px;
   color: #8703DA;
   font-size: 18px;
+  transition: all 0.4s ease-out;
 }
-.menu .menu__link:hover {
+
+.menu__link:hover {
   color: #F0CD1C;
   background-color: #303133;
 }
@@ -29,6 +33,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .menu_vertical_layout .menu__link {
   color: #ffffff;
 }

@@ -2,13 +2,18 @@ import React from 'react';
 import './style.css';
 
 const Menu = (props) => {
+	
+	let elem = props.menu.map( (num) => {
+		return (
+			<li className="menu__item">
+				<a href={num.href} className="menu__link">{num.link}</a>
+			</li>
+		)
+	} );
+
 	return (
 		<ul className={`menu ${props.cls}`}>
-			<li className="menu__item"><a href="#" className="menu__link">Profile</a></li>
-			<li className="menu__item"><a href="#" className="menu__link">Messages</a></li>
-			<li className="menu__item"><a href="#" className="menu__link">News</a></li>
-			<li className="menu__item"><a href="#" className="menu__link">Music</a></li>
-			<li className="menu__item"><a href="#" className="menu__link">Settings</a></li>
+			{elem}
 		</ul>
 	)
 }
