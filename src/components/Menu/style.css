@@ -18,7 +18,7 @@
 
 .menu__link:hover {
   color: #F0CD1C;
-  background-color: #303133;
+  background: repeating-linear-gradient( to left, rgb(48,49,51), rgb(74,74,70) 10px, rgb(48,49,51) 20px);
 }
 
 .menu_position_right {

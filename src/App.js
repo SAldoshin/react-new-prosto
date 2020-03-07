@@ -14,8 +14,8 @@ let menu = [
 ];
 
 let blogs = [
-    { id: 1, image: "/images/avatar.jpg", alt: "ava", text: "Hey, why nobody love you?"},
-    { id: 2, image: "/images/avatar.jpg", alt: "ava", text: "It's our new program"},
+    { id: 1, image: "/images/avatar.jpg", alt: "ava", text: "Hey, why nobody love you?", count: 10},
+    { id: 2, image: "/images/avatar.jpg", alt: "ava", text: "It's our new program", count: 20},
 ];
 
 let slider = [

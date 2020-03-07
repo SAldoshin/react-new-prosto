@@ -8,6 +8,12 @@ const Post = (props) => {
 				<img src={props.blogs.image} alt={props.blogs.alt} className="post__image" />
 			</div>
 			<div className="post__text">{props.blogs.text}</div>
+			<div className="like">
+				<a href="#" className="like__link">
+					<img src="/images/like.png" alt="like" className="like__image" />
+				</a>
+				<span className="like__count">{props.blogs.count}</span>
+			</div>
 		</div>
 	)
 }

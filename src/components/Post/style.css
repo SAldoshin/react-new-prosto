@@ -1,19 +1,38 @@
 .post {
-  display: grid;
-  grid-template-columns: 80px 1fr;
-  -webkit-box-align: center;
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
 .post__wrap-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .post__image {
-  width: 100%;
+    width: 100%;
+}
+
+.like {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.like__link {
+    display: block;
+    width: 20px;
+}
+
+.like__image {
+    width: 100%;
+}
+
+.like__count {
+    padding-left: 10px; 
 }
