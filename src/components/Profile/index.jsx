@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './style.css';
 
 import Slider from './../Slider/';
@@ -6,15 +6,15 @@ import User from './../User/';
 import Form from './../Form/';
 import Posts from './../Posts/';
 
-const Main = (props) => {
+const Profile = (props) => {
 	return (
-		<main className="content">
+		<Fragment>
 			<Slider slider={props.slider} />
 			<User />
 			<Form />
 			<Posts blogs={props.blogs} />
-		</main>
+		</Fragment>
 	)
 };
 
-export default Main;
+export default Profile;

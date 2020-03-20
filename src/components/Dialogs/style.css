@@ -1,0 +1,88 @@
+.header-level-1 {}
+
+.chat {
+	border: 1px solid green;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.chat__users {
+	border: 1px solid red;
+	
+}
+
+
+.person {
+	padding: 10px 10px 10px 20px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	color: #000;
+	transition: all 0.3s ease-in;
+}
+
+.person:hover {
+	color: blue;
+	box-shadow: inset 0 0 10px 5px blue;
+	border-radius: 5px;
+}
+
+.person__wrap-image {
+	width: 60px;
+	border-radius: 15px;
+	overflow: hidden;
+	font-size: 0;	
+}
+
+.person_active .person__wrap-image {
+	box-shadow: 0 0 10px 5px lime;
+}
+
+.person_inactive .person__wrap-image {
+	box-shadow: 0 0 10px 5px red;
+}
+
+.person_waiting .person__wrap-image {
+	box-shadow: 0 0 10px 5px orange;
+}
+
+.person__image {
+	width: 100%;
+}
+
+.person__user {}
+.person__name {
+	font-weight: bold;
+	font-size: 16px;
+}
+.person__tagline {
+	font-size: 12px;
+	padding: 2px 0;
+}
+.person__last-visit {
+	font-size: 14px;
+	text-align: right;
+}
+
+
+.chat__message {
+	border: 1px solid blue;
+}
+
+.message {
+	padding: 10px 10px 10px 20px;
+	display: grid;
+	grid-template-columns: 80px 2fr;
+	align-items: center;
+	color: #000;
+	transition: all 0.3s ease-in;
+}
+.message__identify {
+	width: 60px;
+	border-radius: 15px;
+	overflow: hidden;
+	font-size: 0;
+}
+.message__image {
+	width: 100%;
+}
+.message__text {}

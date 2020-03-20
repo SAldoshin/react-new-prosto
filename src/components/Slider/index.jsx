@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const Slider = (props) => {
-
+	
 	let elem = props.slider.map((slide) => {
 		return <img src={slide.image} alt={slide.alt} className="slider__image" />
 	});

@@ -12,7 +12,7 @@ const Post = (props) => {
 				<a href="#" className="like__link">
 					<img src="/images/like.png" alt="like" className="like__image" />
 				</a>
-				<span className="like__count">{props.blogs.count}</span>
+				<span className="like__count">{props.blogs.like}</span>
 			</div>
 		</div>
 	)

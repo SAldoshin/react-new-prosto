@@ -1,12 +1,13 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import './style.css';
 
 const Menu = (props) => {
 	
-	let elem = props.menu.map( (num) => {
+	let elem = props.menu.map( num => {
 		return (
 			<li className="menu__item">
-				<a href={num.href} className="menu__link">{num.link}</a>
+				<NavLink to={num.href} className="menu__link" activeClassName="menu__active">{num.link}</NavLink>
 			</li>
 		)
 	} );
